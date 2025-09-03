@@ -1,9 +1,11 @@
 import React from "react";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
     <>
-      <div className="text-3xl">hello</div>
+      <Navbar />
+      <div className="container m-auto text-3xl">hello</div>
     </>
   );
 };
