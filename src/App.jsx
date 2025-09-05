@@ -7,7 +7,6 @@ const App = () => {
     <>
       <Navbar />
       <Home />
-      <div className="container m-auto text-3xl">hello</div>
     </>
   );
 };

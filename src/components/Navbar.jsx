@@ -66,9 +66,9 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="sticky top-0 z-50 bg-white shadow-sm">
-      <div className="container mx-auto px-4">
-        <div className="flex justify-between items-center h-16">
+    <nav className="bg-primary">
+      <div className="container mx-auto px-4 pt-[36px] ">
+        <div className="flex justify-between items-center h-[50px] ">
           {/* Logo */}
           <div className="flex-shrink-0">
             <a href="/" aria-label="Lesson Home">
