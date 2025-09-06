@@ -1,5 +1,5 @@
-import React from "react";
 import { FaPlay } from "react-icons/fa";
+import Counter from "../../components/Counter";
 
 const floatCard = [
   {
@@ -86,7 +86,9 @@ const Hero = () => {
               </div>
             </div>
             {/* counter */}
-            <div></div>
+            <div>
+              <Counter />
+            </div>
           </div>
         </div>
       </div>
