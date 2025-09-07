@@ -21,18 +21,18 @@ const floatCard = [
 
 const Hero = () => {
   return (
-    <section className="bg-primary h-[900px] ">
+    <section className="bg-primary pb-[65px] ">
       <div className="container mx-auto  ">
         <div className="pt-[64px] flex flex-col md:flex-row justify-between items-center ">
           {/* {left-side} */}
-          <div className="relative max-w-[470px] max-h-[685px] ">
+          <div className="relative max-w-[470px] w-full ">
             <img
               src="/src/assets/hero_figure.jpg"
               alt="figure"
-              className="max-w-[470px] max-h-[685px] object-center object-cover "
+              className=" w-full h-auto object-cover  "
             />
             {/* floating card */}
-            <div className="w-[270px] h-[244px] bg-white rounded-xl absolute bottom-[48px] -right-[100px] ">
+            <div className="hidden md:block w-[270px] h-[244px] bg-white rounded-xl absolute bottom-[48px] -right-[100px] ">
               {floatCard.map((float, index) => (
                 <div
                   key={index}

@@ -19,3 +19,6 @@
 .nav-list {
   @apply text-cgray font-pop font-normal text-[16px] duration-200 hover:text-cdark;
 }
+.container {
+  @apply px-[20px] md:px-0;
+}
