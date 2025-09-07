@@ -27,7 +27,7 @@ const Hero = () => {
           {/* {left-side} */}
           <div className="relative max-w-[470px] w-full ">
             <img
-              src="/public/image/hero_figure.jpg"
+              src="/image/hero_figure.jpg"
               alt="figure"
               className=" w-full h-auto object-cover  "
             />
