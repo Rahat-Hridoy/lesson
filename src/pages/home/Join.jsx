@@ -3,7 +3,7 @@ import CommonSection from "../../components/CommonSection";
 
 const Join = () => {
   return (
-    <section className="pb-[200px] ">
+    <section className=" pb-[100px]  md:pb-[200px] ">
       <CommonSection
         img={<img src="/src/assets/image2.jpg" />}
         title={
@@ -13,7 +13,7 @@ const Join = () => {
           "Take the next step toward. Join now to receive personalized  and more recommendations from the full Coursera catalog."
         }
         period={null}
-        direction="rtl"
+        direction={"rtl"}
         btntext={"Join Now"}
         btnAlign={"text-left"}
       />

@@ -1,9 +1,9 @@
 import React from "react";
 
-const SectionHeader = ({ mainHead, subHead, Align = "", Width = "" }) => {
+const SectionHeader = ({ mainHead, subHead, Align, Width }) => {
   return (
     <>
-      <div>
+      <div className="w-full ">
         <h2
           className={`font-sen font-bold text-[38px] text-cdark  leading-[48px] -tracking-[2%] pb-[14px] ${Align} ${Width}`}
         >

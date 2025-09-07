@@ -5,7 +5,7 @@ import CourseCard from "../../components/CourseCard";
 const Courses = () => {
   return (
     <>
-      <section className="py-[200px] ">
+      <section className="py-[100px]  md:py-[200px] ">
         <div className="container mx-auto ">
           {/* Section-title */}
           <SectionHeader

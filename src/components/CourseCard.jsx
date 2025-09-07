@@ -29,7 +29,7 @@ const cardItem = [
 const CourseCard = () => {
   return (
     <div className="relative">
-      <div className="pt-[55px] grid grid-cols-1 md:grid-cols-3 space-x-3 ">
+      <div className="pt-[55px] grid grid-cols-1 md:grid-cols-3 space-x-3 space-y-4 ">
         {/* Card */}
 
         {cardItem.map((card, index) => (
@@ -57,7 +57,7 @@ const CourseCard = () => {
           </div>
         ))}
       </div>
-      <div className="absolute -top-[30px] right-0">
+      <div className="hidden md:block absolute -top-[30px] right-0 ">
         <div className="flex item-conter justify-center  space-x-2 ">
           <button className="w-[40px] h-[40px] border-1 border-transparent bg-secondary text-white text-2xl rounded-full flex justify-center items-center duration-300 hover:cursor-pointer hover:border-secondary hover:text-secondary hover:bg-transparent  ">
             <GrFormPrevious />

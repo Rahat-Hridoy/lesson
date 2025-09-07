@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#2E2100] ">
       <div className="container mx-auto">
-        <div className="wrapper flex flex-col md:flex-row justify-between items-start pt-[96px] pb-[38px] ">
+        <div className="wrapper flex flex-col  md:flex-row lg:justify-between lg:items-start pt-[50px] lg:pt-[96px] pb-[18px] lg:pb-[38px] px-[30px] lg:px-0 ">
           {/* Lesson */}
           <div>
             <div className="w-[84px] h-[34px] ">
@@ -31,7 +31,7 @@ const Footer = () => {
             </div>
           </div>
           {/* company */}
-          <div>
+          <div className="pt-[40px] lg:pt-0 ">
             <h3 className="font-pop font-semibold text-[16px] text-white leading-[28px]  ">
               Company
             </h3>
@@ -45,7 +45,7 @@ const Footer = () => {
             ))}
           </div>
           {/* support */}
-          <div>
+          <div className="pt-[40px] lg:pt-0 ">
             <h3 className="font-pop font-semibold text-[16px] text-white leading-[28px]  ">
               Support
             </h3>
@@ -59,7 +59,7 @@ const Footer = () => {
             ))}
           </div>
           {/* Address */}
-          <div className="max-w-[230px]">
+          <div className="max-w-[230px] pt-[40px] lg:pt-0 ">
             <h3 className="font-pop font-semibold text-[16px] text-white leading-[28px]  ">
               Address
             </h3>

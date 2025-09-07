@@ -68,15 +68,15 @@ const Hero = () => {
               companies.
             </p>
             {/* button */}
-            <div className="flex items-center justify-start space-x-[28px] pt-[38px] ">
-              <div className="w-[180px] h-[64px] bg-secondary rounded-full flex justify-center items-center duration-300 hover:scale-95">
+            <div className="flex items-center justify-start space-x-[15px] md:space-x-[28px] pt-[38px] ">
+              <div className="scale-80 md:scale-100 w-[180px] h-[64px] bg-secondary rounded-full flex justify-center items-center duration-300 hover:scale-95">
                 <button className="font-pop font-semibold text-lg text-white hover:cursor-pointer  ">
                   See Courses
                 </button>
               </div>
               <div>
-                <button className="flex justify-center items-center space-x-2 hover:cursor-pointer group ">
-                  <div className="w-[40px] h-[40px] rounded-full border-1 border-cdark flex justify-center items-center duration-300   group-active:scale-90 group-active:border-secondary ">
+                <button className="flex justify-center items-center space-x-0 md:space-x-2 hover:cursor-pointer group ">
+                  <div className="scale-80 md:scale-100 w-[40px] h-[40px] rounded-full border-1 border-cdark flex justify-center items-center duration-300   group-active:scale-90 group-active:border-secondary ">
                     <FaPlay className="text-cdark w-[12px] h-[12px] group-hover:text-secondary group-active:text-cdark " />
                   </div>
                   <span className="font-pop font-semibold text-lg text-cdark ">
