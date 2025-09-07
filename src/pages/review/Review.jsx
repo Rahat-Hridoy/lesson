@@ -8,7 +8,7 @@ const Review = () => {
           {/* profile */}
           <div className="">
             <div className="w-[72px] h-[72px] rounded-full mx-auto lg:mx-0 ">
-              <img src="/public/image/avatar-profile.png" alt="Avatar" />
+              <img src="/image/avatar-profile.png" alt="Avatar" />
             </div>
             <div className="text-center lg:text-left pb-[20px] lg:pb-0 ">
               <h4 className="font-sen font-bold text-[24px] text-white leading-[34px] pt-[18px] pb-[4px] ">
@@ -28,7 +28,7 @@ const Review = () => {
               learned."
             </p>
             <div className="w-[24px] lg:w-[30px] h-[22px] lg:h-[28px] absolute -top-[20px] -left-[8px] lg:-top-[30px] lg:-left-[30px] ">
-              <img src="/public/image/quote.png" alt="icon" />
+              <img src="/image/quote.png" alt="icon" />
             </div>
           </div>
         </div>

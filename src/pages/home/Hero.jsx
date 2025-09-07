@@ -3,17 +3,17 @@ import Counter from "../../components/Counter";
 
 const floatCard = [
   {
-    icon: <img src="/public/image/ui-ux.png" />,
+    icon: <img src="/image/ui-ux.png" />,
     subhead: "20 Courses",
     head: "ui/ux design",
   },
   {
-    icon: <img src="/public/image/dev.png" />,
+    icon: <img src="/image/dev.png" />,
     subhead: "20 Courses",
     head: "Development",
   },
   {
-    icon: <img src="/public/image/marketing.png" />,
+    icon: <img src="/image/marketing.png" />,
     subhead: "20 Courses",
     head: "Marketing",
   },

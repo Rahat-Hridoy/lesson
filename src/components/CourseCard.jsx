@@ -4,21 +4,21 @@ import { GrFormNext, GrFormPrevious } from "react-icons/gr";
 
 const cardItem = [
   {
-    image: <img src="/public/image/image.jpg" alt="Image" />,
+    image: <img src="/image/image.jpg" alt="Image" />,
     title: "Basic web design",
     story:
       "Get the best course, gain knowledge and shine for your future career.",
     price: "$120.75",
   },
   {
-    image: <img src="/public/image/image.jpg" alt="Image" />,
+    image: <img src="/image/image.jpg" alt="Image" />,
     title: "Basic web design",
     story:
       "Get the best course, gain knowledge and shine for your future career.",
     price: "$120.75",
   },
   {
-    image: <img src="/public/image/image.jpg" alt="Image" />,
+    image: <img src="/image/image.jpg" alt="Image" />,
     title: "Basic web design",
     story:
       "Get the best course, gain knowledge and shine for your future career.",
