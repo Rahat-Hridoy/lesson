@@ -3,17 +3,17 @@ import Button from "./Button";
 
 const cardItem = [
   {
-    image: <img src="/src/assets/Image.jpg" alt="Image" />,
+    image: <img src="/public/image/image.jpg" alt="Image" />,
     date: "21 November 2021",
     title: "How to become a pro web designer in 2022 and get remot job?",
   },
   {
-    image: <img src="/src/assets/Image.jpg" alt="Image" />,
+    image: <img src="/public/image/image.jpg" alt="Image" />,
     date: "21 November 2021",
     title: "How to become a pro web designer in 2022 and get remot job?",
   },
   {
-    image: <img src="/src/assets/Image.jpg" alt="Image" />,
+    image: <img src="/public/image/image.jpg" alt="Image" />,
     date: "21 November 2021",
     title: "How to become a pro web designer in 2022 and get remot job?",
   },

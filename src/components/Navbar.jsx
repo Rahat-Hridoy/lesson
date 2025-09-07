@@ -73,7 +73,7 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <a href="/" aria-label="Lesson Home">
               <img
-                src="/src/assets/Lesson..png"
+                src="/public/image/lesson..png"
                 alt="Lesson logo"
                 width={100}
                 height={32}

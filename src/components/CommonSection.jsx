@@ -6,7 +6,7 @@ const CommonSection = ({
   description,
   period,
   img,
-  direction,
+  direction = "",
   btntext,
   btnAlign,
 }) => {

@@ -17,7 +17,7 @@ const Footer = () => {
           {/* Lesson */}
           <div>
             <div className="w-[84px] h-[34px] ">
-              <img src="/src/assets/lightLogo.png" alt="Logo" />
+              <img src="/public/image/lightlogo.png" alt="Logo" />
             </div>
             <p className="font-pop font-normal text-sm text-[#BFBCB2] leading-[26px] max-w-[250px] text-justify py-[18px] ">
               Need to help for your dream Career? trust us. With Lesson, study

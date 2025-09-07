@@ -5,7 +5,7 @@ const Join = () => {
   return (
     <section className=" pb-[100px]  md:pb-[200px] ">
       <CommonSection
-        img={<img src="/src/assets/image2.jpg" />}
+        img={<img src="/public/image/image2.jpg" />}
         title={
           "Take the next step toward your personal and professional goals with Lesson"
         }

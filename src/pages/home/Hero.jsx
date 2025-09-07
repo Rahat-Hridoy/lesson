@@ -3,17 +3,17 @@ import Counter from "../../components/Counter";
 
 const floatCard = [
   {
-    icon: <img src="/src/assets/ui-ux.png" />,
+    icon: <img src="/public/image/ui-ux.png" />,
     subhead: "20 Courses",
     head: "ui/ux design",
   },
   {
-    icon: <img src="/src/assets/dev.png" />,
+    icon: <img src="/public/image/dev.png" />,
     subhead: "20 Courses",
     head: "Development",
   },
   {
-    icon: <img src="/src/assets/marketing.png" />,
+    icon: <img src="/public/image/marketing.png" />,
     subhead: "20 Courses",
     head: "Marketing",
   },
@@ -27,7 +27,7 @@ const Hero = () => {
           {/* {left-side} */}
           <div className="relative max-w-[470px] w-full ">
             <img
-              src="/src/assets/hero_figure.jpg"
+              src="/public/image/hero_figure.jpg"
               alt="figure"
               className=" w-full h-auto object-cover  "
             />
