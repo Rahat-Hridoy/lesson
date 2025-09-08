@@ -11,7 +11,7 @@ const SignUp = () => {
           "87% of people learning for professional development report career benefits like getting a promotion, a raise, or starting a new career."
         }
         period={"Lesson Impact Report (2022)"}
-        direction={"ltr"}
+        direction="ltr"
         btntext={"Sing Up"}
         btnAlign={"text-left"}
       />

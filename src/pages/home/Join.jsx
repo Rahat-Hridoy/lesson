@@ -13,7 +13,7 @@ const Join = () => {
           "Take the next step toward. Join now to receive personalized  and more recommendations from the full Coursera catalog."
         }
         period={null}
-        direction={"rtl"}
+        direction="rtl"
         btntext={"Join Now"}
         btnAlign={"text-left"}
       />
