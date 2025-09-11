@@ -14,6 +14,8 @@ const SignUp = () => {
         direction="ltr"
         btntext={"Sing Up"}
         btnAlign={"text-left"}
+        leftSideWidth={"max-w-[570px] "}
+        rigthSideWidth={"max-w-[470px] "}
       />
     </section>
   );

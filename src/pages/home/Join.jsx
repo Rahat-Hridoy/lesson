@@ -16,6 +16,8 @@ const Join = () => {
         direction="rtl"
         btntext={"Join Now"}
         btnAlign={"text-left"}
+        leftSideWidth={"max-w-[470px] "}
+        rigthSideWidth={"max-w-[570px] "}
       />
     </section>
   );

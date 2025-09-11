@@ -2,7 +2,7 @@ import React from "react";
 
 const Review = () => {
   return (
-    <section className="bg-[#2E2100] mb-[200px] ">
+    <section className="bg-[#2E2100] mb-[100px] lg:mb-[200px] ">
       <div className="container mx-auto py-[96px] ">
         <div className="flex flex-col lg:flex-row justify-between items-center ">
           {/* profile */}

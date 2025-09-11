@@ -32,7 +32,7 @@ const cardItem = [
     price: "$120.75",
   },
   {
-    id: 1,
+    id: 4,
     image: <img src="/image/image.jpg" alt="Image" />,
     title: "Basic web design",
     story:
@@ -40,7 +40,7 @@ const cardItem = [
     price: "$120.75",
   },
   {
-    id: 2,
+    id: 5,
     image: <img src="/image/image.jpg" alt="Image" />,
     title: "Basic web design",
     story:
@@ -48,7 +48,7 @@ const cardItem = [
     price: "$120.75",
   },
   {
-    id: 3,
+    id: 6,
     image: <img src="/image/image.jpg" alt="Image" />,
     title: "Basic web design",
     story:
@@ -59,11 +59,11 @@ const cardItem = [
 
 const CourseCard = () => {
   return (
-    <div className="relative pt-[55px]">
+    <div className="relative pt-[55px] mx-auto">
       <Swiper
         modules={[Navigation]}
         spaceBetween={20}
-        slidesPerView={3}
+        slidesPerView={1}
         navigation={{
           nextEl: ".next-btn",
           prevEl: ".prev-btn",
@@ -99,11 +99,11 @@ const CourseCard = () => {
       </Swiper>
 
       {/* Navigation Arrows */}
-      <div className="hidden md:flex absolute -top-[30px] right-0 space-x-2">
-        <button className="prev-btn w-[40px] h-[40px] border border-transparent bg-secondary text-white text-2xl rounded-full flex justify-center items-center duration-300 hover:border-secondary hover:text-secondary hover:bg-transparent">
+      <div className=" absolute top-4 md:-top-[30px] right-[10px] md:right-0 space-x-2 flex  ">
+        <button className="prev-btn w-[32px] md:w-[40px] h-[32px] md:h-[40px] border border-transparent bg-secondary text-white text-2xl rounded-full flex justify-center items-center duration-300 hover:border-secondary hover:text-secondary hover:bg-transparent hover:cursor-pointer">
           <GrFormPrevious />
         </button>
-        <button className="next-btn w-[40px] h-[40px] border border-transparent bg-secondary text-white text-2xl rounded-full flex justify-center items-center duration-300 hover:border-secondary hover:text-secondary hover:bg-transparent">
+        <button className="next-btn w-[32px] md:w-[40px] h-[32px] md:h-[40px] border border-transparent bg-secondary text-white text-2xl rounded-full flex justify-center items-center duration-300 hover:border-secondary hover:text-secondary hover:bg-transparent  hover: cursor-pointer">
           <GrFormNext />
         </button>
       </div>
