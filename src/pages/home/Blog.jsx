@@ -4,7 +4,7 @@ import BlogCard from "../../components/BlogCard";
 
 const Blog = () => {
   return (
-    <section className="bg-[#FFFCF4] py-[96px] ">
+    <section className="bg-[#FFFCF4] py-[96px] h-[870px] ">
       <div className="container mx-auto">
         <SectionHeader
           mainHead={"Out Blog"}

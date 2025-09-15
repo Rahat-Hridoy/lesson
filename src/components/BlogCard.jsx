@@ -24,14 +24,13 @@ const cardItem = [
 
 const BlogCard = () => {
   return (
-    <div>
-      <div className="pt-[55px] flex justify-center items-center gap-x-5 gap-y-4 overflow-hidden ">
+    <div className="absolute">
+      <div className=" pt-[55px] flex justify-center items-center lg:gap-x-2 z-10">
         {/* Card */}
-
         {cardItem.map((card) => (
           <div
             key={card.id}
-            className="w-[370px]  bg-white shadow-md rounded-2xl duration-300 hover:cursor-pointer  hover:shadow-xl "
+            className="w-[370px] bg-white shadow-md rounded-2xl duration-300 hover:cursor-pointer  hover:shadow-xl "
           >
             <div className="max-w-[370px] w-full max-h-[278px]  ">
               {card.image}
@@ -47,16 +46,6 @@ const BlogCard = () => {
               </h3>
               <Button buttonText={"Read More"} />
             </div>
-          </div>
-        ))}
-      </div>
-      {/* slider indicator */}
-      <div className="flex items-center justify-center gap-x-2 pt-[20px] ">
-        {cardItem.map((dot) => (
-          <div key={dot.id}>
-            <a href=".">
-              <div className="w-[6px] h-[6px] bg-secondary rounded-full "></div>
-            </a>
           </div>
         ))}
       </div>
